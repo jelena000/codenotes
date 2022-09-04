@@ -1,0 +1,224 @@
+
+/*
+.react-responsive-modal-modal {
+    max-width: 900px; 
+    min-height: 150px;
+    height: 160px;
+    background-color: #413F49    !important;
+    width: 350px;
+    height: 233px !important;
+    border-radius: 20px;
+
+}
+.modalInnerSection{
+    width: 100%;
+    padding-left: 10%;
+}
+.newTaskTitle{
+    border-top: 0px !important;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: #413F49;
+    border-bottom: 1px solid #797676;
+    width: 70%;
+    
+}
+.modal-title{
+    padding-bottom: 25px;
+    padding-top: 25px;
+    color: #fff;
+}
+.tags{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #fff;
+
+}
+.modal-bottom{
+    display: flex;
+    justify-content: end;
+    background-color: #333232;
+    padding-right: 7%;
+    height: 40px;
+
+}
+.modal-bottom div{
+    margin-right: 10px;
+}
+.create-bttn{
+    background-color: #3E3A3A;
+    height: 30px;
+    margin-top: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    border-radius: 5px;
+}
+.cancel-bttn{
+    background-color: #d44242;
+    height: 30px;
+    margin-top: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    border-radius: 5px; 
+}
+*/
+/*Css sa modala 1*/
+.newCardTitle-t{
+    border: 0px;
+    border-color: red;
+    background-color: #413F49;
+    border-bottom: 1px solid #797676;
+    text-align: initial;
+    color:white;
+}
+
+
+@media (min-width: 300px) {  
+    .newCardTitle-t {
+        max-width: 60px;
+    }
+    .cancelCreate-t{
+        display: flex;
+}
+}
+@media (min-width: 576px) {  
+    .newCardTitle-t {
+        max-width: 100px;
+    }
+}
+
+@media (min-width: 768px) {  
+    .newCardTitle-t {
+        max-width: 150px;
+    }
+}
+
+@media (min-width: 992px) {  
+    .newCardTitle-t {
+        max-width: 200px;
+    }
+}
+
+
+@media (min-width: 1200px) {  
+    .newCardTitle-t {
+        max-width: 350px;
+        width: 300px;
+    }
+}
+.react-responsive-modal-modal{
+    background-color: #413F49;
+    padding: 0px !important;
+    margin: 0px !important;
+    width: 350px !important;
+    border-radius: 20px !important;
+}
+.modalBackground-t{
+    background-color: #413F49;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    width: 29%;
+    /*
+    margin: auto;
+    */
+    border-radius: 20px;
+    overflow: hidden;
+
+    margin:auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.cancelCreate-t{
+    background-color: #333232 ;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 10%;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.modalHader-t{
+    text-align:initial;
+    padding-bottom:20px;
+    padding-top:20px;
+    padding-left:10%;
+}
+.modalInpContainer-t{
+    text-align:initial;
+    padding-bottom:20px;
+    padding-left:10%;
+}
+.colorSection-t{
+    text-align:initial;
+    padding-bottom:20px;
+    padding-left:10%;
+    padding-right:10%;
+}
+.cancelBtn-t{
+    background-color:#BA2B63;
+    padding-left:15px;
+    padding-right:15px;
+    border-radius:3px;
+    padding-top:2px;
+    cursor: pointer;
+}
+.createBtn-t{
+    /*marginRight:15, backgroundColor:"#3E3A3A", paddingLeft:15,paddingRight:15, borderRadius:3, paddingTop:2, cursor: 'pointer'*/
+    margin-right:15px;
+    background-color:#3E3A3A;
+    padding-left:15px;
+    padding-right:15px;
+    border-radius:3px;
+    padding-top:2px;
+    cursor: pointer;
+}
+.choseColor-t{
+    border-radius:90px;
+    width:19px;
+    height:19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.colorOne-t{
+    background-color:#FF76AC;
+}
+.colorTwo-t{
+    background-color:#57B7BD;
+}
+.colorThree-t{
+    background-color:#6645AB;
+}
+.colorFour-t{
+    background-color:#B9CD3F;
+}
+.colorFive-t{
+    background-color:#41BF82;
+}
+.colorSix-t{
+    background-color:#C4C4C4;
+}
+.choseColorBorder-t{
+    border-radius:90px;
+   /* width:20px;
+    height:20px;*/
+    margin-right:5px;
+    padding:2px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition: 0.3s;
+}

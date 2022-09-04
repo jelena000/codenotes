@@ -1,0 +1,32 @@
+.card{
+    border: 1px solid palegoldenrod;
+    border-radius: 20px;
+    height: 130px !important;
+    background-color: #393351 ;
+    text-align: left;
+    cursor: pointer;    
+}
+
+.one-card{
+    width: 30%;
+    padding: 15px;
+   align-items: flex-start;
+}
+
+.card-title{
+    margin: 20px 00px 40px  20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.card-icon{
+    margin-left:20px;
+    display: flex;
+    align-items: center;
+}
+
+.card-icon div{
+    font-weight: 100;
+    color: #8C8C8C;
+    margin-left: 6px;
+}

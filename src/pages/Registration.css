@@ -1,0 +1,105 @@
+.reg-container *{
+    color: #000!important;
+    font-family: 'Federo', sans-serif;  
+}
+.reg-container{
+    color:#000!important;
+    width: 100%;
+    display: flex;
+   /* background-color: #2F2B43;*/
+}
+.reg-form-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+.reg-img-section{
+    width: 50%;
+    height: 100vh;
+}
+
+@media(max-width:780px){
+    .reg-form-section{
+        width: 100%;
+    }
+    .reg-img-section{
+        width: 0%;
+        display: none !important;
+    }    
+}
+
+.reg-form-section label, input{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+}
+.reg-form-section label{
+    font-size: 15px;
+}
+.reg-form-section input{
+    border-radius: 4px;
+    border: 2px solid rgb(207, 207, 207);
+    height: 34px;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    width: 260px;
+}
+.signBtn{
+    width: 100%;
+    border-radius: 4px;
+    background-color: #393351;
+    border: 1px solid #393351;
+    color: #fff !important;
+    height: 37px;
+}
+.signGoogle{
+    width: 100%;
+    border-radius: 4px;
+    border: 2px solid rgb(207, 207, 207);
+    background-color: #fff;
+    color: #000 !important;
+    height: 37px;
+    margin-top: 10px;
+}
+.title-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 260px;
+    align-items: flex-start;
+}
+.title-section p{
+    font-size: 13px;
+}
+.singnUp{
+    color: #393351 !important;
+    font-weight: 500;
+    cursor: pointer;
+}
+.forgPass{
+    cursor: pointer !important;
+}
+.switchToReg{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.singnUp{
+    padding-left: 5px;
+}
+.reg-img-section{
+   /* max-width: 100%;
+    max-height: 100%;  */  
+    background-image: url('https://images.unsplash.com/photo-1652841199247-f9ccbcbe4682?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDQyfGFldTZyTC1qNmV3fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+}
+.login-part, .reg-part{
+    width: 100%;
+    display: flex;
+}
+::placeholder{
+    font-size: 13px;
+    padding-left: 5px;
+}

@@ -1,0 +1,15 @@
+.sbComp{
+    background-color: #393351;
+    height: 100vh;
+    position: fixed;
+    width: 50px;
+    margin: 0px;
+}
+
+.icon{
+    margin-bottom: 25px;
+}
+
+.icons-container{
+    margin-top: 40px;
+}
